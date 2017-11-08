@@ -20,8 +20,4 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |sp|
     sp.source_files = "Sources/Sentry/**/*.{h,m}"
   end
-
-  s.subspec 'KSCrash' do |ks|
-    ks.dependency 'KSCrash/Core', '~> 1.15.12'
-  end
 end
